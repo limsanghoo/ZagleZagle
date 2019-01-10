@@ -1,19 +1,17 @@
 package com.zagle.common;
 
 
-//==> PageNavigation �� ���� Bean
+
 public class Page {
 	
-	///Field
-	private int currentPage;		// ����������
-	private int totalCount;			// �� �Խù� ��
-	private int pageUnit;			// �ϴ� ������ ��ȣ ȭ�鿡 �������� ��
-	private int pageSize;			// �� �������� �������� �Խù���
-	private int maxPage;			// �ִ� ������ ��ȣ(��ü ������)
-	private int beginUnitPage;	//ȭ�鿡 �������� ������ ��ȣ�� �ּҼ�
-	private int endUnitPage;		//ȭ�鿡 �������� ������ ��ȣ�� �ִ��
+	private int currentPage;		
+	private int totalCount;		
+	private int pageUnit;			
+	private int pageSize;		
+	private int maxPage;		
+	private int beginUnitPage;	
+	private int endUnitPage;		
 	
-	///Constructor
 	public Page() {
 	}
 	public Page( int currentPage, int totalCount,	int pageUnit, int pageSize ) {
@@ -36,7 +34,6 @@ public class Page {
 		}
 	}
 	
-	///Mehtod
 	public int getCurrentPage() {
 		return currentPage;
 	}

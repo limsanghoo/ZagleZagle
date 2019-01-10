@@ -13,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.zagle.service.domain.Stream;
 import com.zagle.service.domain.User;
 import com.zagle.service.stream.StreamService;
+import com.zagle.service.user.UserService;
 
 @Controller
 @RequestMapping("/stream/*")
@@ -21,6 +22,7 @@ public class StreamController {
 	@Autowired
 	@Qualifier("streamServiceImpl")
 	private StreamService streamService;
+	private UserService userService;
 	
 	public StreamController() {
 		System.out.println(this.getClass());
@@ -44,5 +46,6 @@ public class StreamController {
 	streamService.addStream(stream);
 	
 	ModelAndView modelAndView = new ModelAndView("redirect:localhost:3000/streamer="+user.getUserNo()+"&userName="+user.getUserNickname());
+	return modelAndView;
 	}
 }
