@@ -4,11 +4,20 @@ package com.zagle.common;
 
 public class Page {
 	
+<<<<<<< HEAD
 	private int currentPage;		
 	private int totalCount;		
 	private int pageUnit;			
 	private int pageSize;		
 	private int maxPage;		
+=======
+	///Field
+	private int currentPage;		
+	private int totalCount;			
+	private int pageUnit;			
+	private int pageSize;			
+	private int maxPage;			
+>>>>>>> refs/remotes/origin/master
 	private int beginUnitPage;	
 	private int endUnitPage;		
 	

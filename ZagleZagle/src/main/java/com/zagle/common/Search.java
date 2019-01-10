@@ -7,6 +7,10 @@ public class Search {
 	private String searchCondition;
 	private String searchKeyword;
 	private int pageSize;
+<<<<<<< HEAD
+=======
+	
+>>>>>>> refs/remotes/origin/master
 	private int endRowNum;
 	private int startRowNum;
 	
@@ -41,9 +45,17 @@ public class Search {
 		this.searchKeyword = searchKeyword;
 	}
 	
+<<<<<<< HEAD
+=======
+	
+>>>>>>> refs/remotes/origin/master
 	public int getEndRowNum() {
 		return getCurrentPage()*getPageSize();
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> refs/remotes/origin/master
 	public int getStartRowNum() {
 		return (getCurrentPage()-1)*getPageSize()+1;
 	}
