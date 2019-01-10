@@ -6,7 +6,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.model2.mvc.service.domain.User;
+import com.zagle.service.domain.User;
 
 
 /*
