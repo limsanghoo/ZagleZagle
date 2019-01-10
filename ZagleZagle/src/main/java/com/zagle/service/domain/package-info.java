@@ -5,4 +5,4 @@
  * @author Bit
  *
  */
-package com.zagle.common.domain;
+package com.zagle.service.domain;
